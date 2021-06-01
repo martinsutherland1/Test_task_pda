@@ -18,7 +18,7 @@ class CardGame:
 
 # The game had no __init__ file to state what variables it could use within the functions
 
-# The if statement is assigning the value of 1, rather than comparing. The else statment is missing a colon.
+# The if statement is assigning the value of 1, rather than comparing. The else statment is missing a colon, and is not required.
   def check_for_ace(self, card):
     if card.value = 1:
       return True

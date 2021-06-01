@@ -15,9 +15,8 @@ class CardGame:
 
       def check_for_ace(self, card1):
         if card1.value == 1:
-              return True
-        else:
-          return False
+            return True
+        return False
    
 
       def highest_card(self, card1, card2):
